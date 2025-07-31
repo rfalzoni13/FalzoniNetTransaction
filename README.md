@@ -72,7 +72,7 @@ Para executar o projeto, abra o mesmo no Visual Studio 2022 e clique no botão d
  No VS Code, abra um terminal. Na raiz do projeto e digite `dotnet restore` (para restaurar dependências e em seguida `dotnet run --project FalzoniNetTransaction.Api` para executar.
 
 ## Docker
-Para executar no Docker, execute o comando `docker build -t <nome-da-imagem> -f FalzoniNetTransaction.Api/Dockerfile .` (o mesmo pode ser executado também no Visual Studio 2022 ao escolher o profile Container(Dockerfile)
+Para executar no Docker, execute o comando `docker build -t <nome-da-imagem> -f FalzoniNetTransaction.Api/Dockerfile .`. Após a montagem da imagem, digite `docker run -p 8080:8080 <nome-da-imagem` (o mesmo pode ser executado também no Visual Studio 2022 ao escolher o profile Container(Dockerfile)
 
 ## 🏗️ Arquitetura
 
