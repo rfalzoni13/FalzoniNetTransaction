@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36109.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Application", "Application", "{02EA681E-C7D8-13C7-8484-4AC65E1B71E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalzoniNetTransaction.Api", "FalzoniNetTransaction.Api\FalzoniNetTransaction.Api.csproj", "{526A926E-C17D-4508-B6E1-F1BC0252C327}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Service", "Service", "{C302A63E-CA25-42AB-B117-2E80E167A330}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalzoniNetTransaction.Service", "FalzoniNetTransaction.Service\FalzoniNetTransaction.Service.csproj", "{18EE0DB2-A67A-48AE-B568-83FDA67EAF6D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Model", "Model", "{087F6348-4F10-41E1-926A-5FADD5436D29}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalzoniNetTransaction.Model", "FalzoniNetTransaction.Model\FalzoniNetTransaction.Model.csproj", "{2C827242-AD01-435B-881B-5E1C1B100874}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Test", "Test", "{C92E683D-99E4-4B58-B56F-A099383E68CC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FalzoniNetTransaction.Test", "FalzoniNetTransaction.Test\FalzoniNetTransaction.Test.csproj", "{EF740233-0D9B-455A-9C8E-3F2C6C4C3AF0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B08DD0A6-6329-4F12-BF22-22F43C71CC8E}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{526A926E-C17D-4508-B6E1-F1BC0252C327}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{526A926E-C17D-4508-B6E1-F1BC0252C327}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{526A926E-C17D-4508-B6E1-F1BC0252C327}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{526A926E-C17D-4508-B6E1-F1BC0252C327}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18EE0DB2-A67A-48AE-B568-83FDA67EAF6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18EE0DB2-A67A-48AE-B568-83FDA67EAF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18EE0DB2-A67A-48AE-B568-83FDA67EAF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18EE0DB2-A67A-48AE-B568-83FDA67EAF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C827242-AD01-435B-881B-5E1C1B100874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C827242-AD01-435B-881B-5E1C1B100874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C827242-AD01-435B-881B-5E1C1B100874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C827242-AD01-435B-881B-5E1C1B100874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EF740233-0D9B-455A-9C8E-3F2C6C4C3AF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF740233-0D9B-455A-9C8E-3F2C6C4C3AF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF740233-0D9B-455A-9C8E-3F2C6C4C3AF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF740233-0D9B-455A-9C8E-3F2C6C4C3AF0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{526A926E-C17D-4508-B6E1-F1BC0252C327} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{18EE0DB2-A67A-48AE-B568-83FDA67EAF6D} = {C302A63E-CA25-42AB-B117-2E80E167A330}
+		{2C827242-AD01-435B-881B-5E1C1B100874} = {087F6348-4F10-41E1-926A-5FADD5436D29}
+		{EF740233-0D9B-455A-9C8E-3F2C6C4C3AF0} = {C92E683D-99E4-4B58-B56F-A099383E68CC}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D2DB237C-47A8-47C4-9747-79DC644827E0}
+	EndGlobalSection
+EndGlobal
